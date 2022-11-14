@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url(../Photos/Signup/1.jpg);
+    animation: change 60s infinite ease-in-out; 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;   
+}
+.logo a{
+    position: absolute;
+    display: flex;
+    bottom: 500px;
+    width: 150px;
+    height: 150px; 
+    transform: scale(0.7);
+    transition: 2s;   
+}
+.logo a:hover{
+   transform: scale(0.5) translateY(-20px);
+}
+  /*nav{
+   width: 100%;
+   height: 80px;
+   background-color: #0009;
+   line-height: 80px;
+}
+nav ul{
+   float: right;
+   margin-right: 30px;
+}
+nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   transition: 0.8s all;
+}
+nav ul li:hover{
+   background-color: #f39d1a;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #fff;
+   padding: 30px;
+}*/
+
+.signup-box{
+    
+    width: 340px;
+    height: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+    padding: top;
+    color: #c7122a;
+    
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border: 1px solid rgb(185, 37, 37);
+    border-radius: 6px;
+    outline: none;
+}
+form .submit{
+    background-color: #a81a2d;
+    border-color:transparent;
+    color: #fff;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    width: 45%;
+    height: 45px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+    transform: scale(0.9);
+
+}
+form .submit:hover{
+   background-color: rgba(207, 207, 207, 0.801);
+   cursor: pointer;
+   transform: scale(0.8) translateY(-5px);
+}
+ /*button{
+    width: 320px;
+    height: 45px;
+    margin-top: 20px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 18px; 
+} */
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.p2{
+    text-align: center;
+    color: wheat;
+    font-family: 115px;
+    margin-top: -10px;
+}
+.p2 a {
+    color: yellow;
+}
+
+@keyframes change{
+    0%,100% 
+     {
+         background-image: url(../Photos/Signup/1.jpg);
+     }
+     25%
+    {
+        background-image: url(../Photos/Signup/2.jpg);
+    }
+    50%
+    {
+        background-image: url(../Photos/HOME/img4.jpg);
+    }
+}    
